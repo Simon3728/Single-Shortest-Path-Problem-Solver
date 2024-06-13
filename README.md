@@ -38,7 +38,7 @@ Dijkstra's algorithm always finds the shortest path because it systematically ex
 
 Below is an example of Dijkstra's algorithm applied to a graph of cities in the US with populations over 500,000 and a desired degree of 7:
 
-![Dijkstra's Algorithm Example](Evaluation/Result_plots/dijkstra_miami_seattle.png)
+![Dijkstra's Algorithm Example](Evaluation/Result_Plots/dijkstra_miami_seattle.png)
 
 In this image, the shortest path from Miami to Seattle is highlighted in red. The yellow circles represent the nodes (cities) that were checked during the execution of the algorithm. The algorithm checks many nodes to ensure that it has found the shortest path. In this case, 107 nodes were checked, even though there are only 85 cities in the graph. This is because the algorithm revisits cities to update the shortest paths as it finds shorter connections. 
 
@@ -53,7 +53,7 @@ I highly recommend watching this [YouTube video](https://www.youtube.com/watch?v
 
 Below is an example of the A* algorithm applied to the same graph of cities in the US with populations over 500,000 and a desired degree of 7:
 
-![A* Algorithm Example](Evaluation/Result_plots/astar_miami_seattle.png)
+![A* Algorithm Example](Evaluation/Result_Plots/astar_miami_seattle.png)
 
 In this image, the shortest path from Miami to Seattle is highlighted in red, similar to the Dijkstra example. However, the A* algorithm checks fewer nodes (26 in this case) because it uses the heuristic to focus the search towards the goal more effectively. The yellow circles represent the nodes (cities) that were checked during the execution of the algorithm.
 
@@ -67,15 +67,15 @@ Below are the plots comparing the number of checked nodes of the Dijkstra and A*
 
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; margin: 5px;">
-    <img src="Evaluation/Result_plots/pop_500000/efficiency_85_144.png" alt="Checked Nodes Dijkstra vs A* (144 Edges)" style="width: 100%;">
+    <img src="Evaluation/Result_Plots/pop_500000/efficiency_85_144.png" alt="Checked Nodes Dijkstra vs A* (144 Edges)" style="width: 100%;">
     <p style="text-align: center;">Checked Nodes Dijkstra vs A* (144 Edges)</p>
   </div>
   <div style="flex: 1; margin: 5px;">
-    <img src="Evaluation/Result_plots/pop_500000/efficiency_85_332.png" alt="Checked Nodes Dijkstra vs A* (332 Edges)" style="width: 100%;">
+    <img src="Evaluation/Result_Plots/pop_500000/efficiency_85_332.png" alt="Checked Nodes Dijkstra vs A* (332 Edges)" style="width: 100%;">
     <p style="text-align: center;">Checked Nodes Dijkstra vs A* (332 Edges)</p>
   </div>
   <div style="flex: 1; margin: 5px;">
-    <img src="Evaluation/Result_plots/pop_500000/efficiency_85_934.png" alt="Checked Nodes Dijkstra vs A* (934 Edges)" style="width: 100%;">
+    <img src="Evaluation/Result_Plots/pop_500000/efficiency_85_934.png" alt="Checked Nodes Dijkstra vs A* (934 Edges)" style="width: 100%;">
     <p style="text-align: center;">Checked Nodes Dijkstra vs A* (934 Edges)</p>
   </div>
 </div>
@@ -103,7 +103,7 @@ A weighted heuristic in A* means adjusting the influence of the heuristic in the
 
 Below is an example of the weighted A* algorithm (with a heuristic weight of 2) applied to the same graph of cities in the US with populations over 500,000 and a desired degree of 7:
 
-![Weighted A* Algorithm Example](Evaluation/Result_plots/weighted_astar_miami_seattle.png)
+![Weighted A* Algorithm Example](Evaluation/Result_Plots/weighted_astar_miami_seattle.png)
 
 This image displays the shortest calculated path from Miami to Seattle. The path taken differs from the one found by Dijkstra and the standard A* Algorithm, indicating that it is not the optimal shortest path. However, the weighted A* algorithm checked only 9 nodes, significantly fewer than the regular A*. This approach is useful when efficiency is more important than finding the absolute optimal path.
 
