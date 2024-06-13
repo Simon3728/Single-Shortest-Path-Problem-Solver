@@ -65,11 +65,9 @@ This demonstrates the advantage of the A* algorithm in terms of efficiency. With
 
 Below are the plots comparing the number of checked nodes of the Dijkstra and A* algorithms for a graph with 85 nodes and varying amounts of connections:
 
-<p align="center">
-  <img src="Evaluation/Result_Plots/pop_500000/efficiency_85_144.png" alt="Checked Nodes Dijkstra vs A* (144 Edges)" width="30%">
-  <img src="Evaluation/Result_Plots/pop_500000/efficiency_85_332.png" alt="Checked Nodes Dijkstra vs A* (332 Edges)" width="30%">
-  <img src="Evaluation/Result_Plots/pop_500000/efficiency_85_934.png" alt="Checked Nodes Dijkstra vs A* (934 Edges)" width="30%">
-</p>
+<img src="Evaluation/Result_Plots/pop_500000/efficiency_85_144.png" alt="Checked Nodes Dijkstra vs A* (144 Edges)" width="70%">
+<img src="Evaluation/Result_Plots/pop_500000/efficiency_85_332.png" alt="Checked Nodes Dijkstra vs A* (332 Edges)" width="70%">
+<img src="Evaluation/Result_Plots/pop_500000/efficiency_85_934.png" alt="Checked Nodes Dijkstra vs A* (934 Edges)" width="70%">
 
 ### Analysis
 
