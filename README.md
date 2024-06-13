@@ -111,7 +111,7 @@ This image displays the shortest calculated path from Miami to Seattle. The path
 
 The following graph represents the performance of the weighted A* algorithm with different weight factors (epsilon values) compared to Dijkstra's algorithm. The blue lines show the percentage of nodes checked by the weighted A* algorithm relative to Dijkstra's algorithm. For example, 40% means that the weighted A* algorithm checked only 40% of the nodes that Dijkstra's algorithm checked. The red lines indicate the percentage error, which measures how much longer the path found by the weighted A* algorithm is compared to the optimal path found by Dijkstra's algorithm. An epsilon of 1 represents the standard A* algorithm.
 
-![Performance of Weighted A* Algorithm](Evaluation/Result_plots/pop_500000/weighted_astar_85.png)
+![Performance of Weighted A* Algorithm](Evaluation/Result_Plots/pop_500000/weighted_astar_85.png)
 
 The graphw displays the performance metrics, tested on 100 different single-source shortest path problems for each epsilon value. The three graphs have the same amount of nodes (85), but varying numbers of edges:
 

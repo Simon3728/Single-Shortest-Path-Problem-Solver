@@ -12,10 +12,8 @@ from get_data import extract_city_data
 from make_graph import generate_random_graph
 from sspp_solvers import astar, dijkstra
 import random
-import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import csv
 
 def get_random_city_name(df):
     """Selects a random city name from the DataFrame."""
