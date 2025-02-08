@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on solving the Single Shortest Path Problem using two well-known algorithms: Dijkstra and A*. The graph for this project is constructed from city data within the United States. The complexity of the graph is adjustable, allowing for the inclusion of different numbers of cities (for example, all cities with a population over 100,000) and varying degrees of connectivity, which represent the number of connections each city has to its neighboring cities.
+This project focuses on solving the Single Shortest Path Problem using two algorithms: Dijkstra and A*. The graph for this project is constructed from city data within the United States. The complexity of the graph is adjustable, allowing for the inclusion of different numbers of cities (for example, all cities with a population over 100,000) and varying degrees of connectivity, which represent the number of connections each city has to its neighboring cities.
 
 By adjusting the `minimum_population` threshold, the number of nodes (cities) in the graph can be changed. Additionally, altering the degree of connectivity changes the number of edges (connections) each city has. This setup enables comprehensive testing and comparison of the performance of the Dijkstra and A* algorithms under various conditions.
 
